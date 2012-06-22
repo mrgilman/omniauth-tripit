@@ -1,4 +1,1 @@
-omniauth-tripit
-===============
-
-Unofficial OmniAuth strategy for TripIt.
+Unofficial OmniAuth strategy for TripIt. Work in progress.
