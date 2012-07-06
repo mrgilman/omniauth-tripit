@@ -29,10 +29,6 @@ module OmniAuth
         fail!(:service_unavailable, e)
       end
 
-      
-      def urlencode(str)
-        str.gsub(/[^a-zA-Z0-9_\.\-]/n) {|s| sprintf('%%%02x', s[0]) }
-      end      
     end
   end
 end
