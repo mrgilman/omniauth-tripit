@@ -9,16 +9,16 @@ GEM
   remote: http://rubygems.org/
   specs:
     diff-lcs (1.2.4)
-    hashie (2.0.5)
+    hashie (4.1.0)
     multi_json (1.7.6)
     oauth (0.4.7)
-    omniauth (1.1.4)
-      hashie (>= 1.2, < 3)
-      rack
+    omniauth (1.9.1)
+      hashie (>= 3.4.6)
+      rack (>= 1.6.2, < 3)
     omniauth-oauth (1.0.1)
       oauth
       omniauth (~> 1.0)
-    rack (1.5.2)
+    rack (2.2.3)
     rspec (2.13.0)
       rspec-core (~> 2.13.0)
       rspec-expectations (~> 2.13.0)
