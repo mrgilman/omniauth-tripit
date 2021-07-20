@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    omniauth-tripit (0.0.1)
+    omniauth-tripit (0.1.0)
       omniauth
       omniauth-oauth
 
@@ -9,16 +9,19 @@ GEM
   remote: http://rubygems.org/
   specs:
     diff-lcs (1.2.4)
-    hashie (2.0.5)
+    hashie (4.1.0)
     multi_json (1.7.6)
-    oauth (0.4.7)
-    omniauth (1.1.4)
-      hashie (>= 1.2, < 3)
-      rack
-    omniauth-oauth (1.0.1)
+    oauth (0.5.6)
+    omniauth (2.0.4)
+      hashie (>= 3.4.6)
+      rack (>= 1.6.2, < 3)
+      rack-protection
+    omniauth-oauth (1.2.0)
       oauth
-      omniauth (~> 1.0)
-    rack (1.5.2)
+      omniauth (>= 1.0, < 3)
+    rack (2.2.3)
+    rack-protection (2.1.0)
+      rack
     rspec (2.13.0)
       rspec-core (~> 2.13.0)
       rspec-expectations (~> 2.13.0)
@@ -39,3 +42,6 @@ DEPENDENCIES
   omniauth-tripit!
   rspec
   simplecov
+
+BUNDLED WITH
+   2.1.4
